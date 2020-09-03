@@ -1,0 +1,14 @@
+#bars {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* align-items: flex-start; */
+}
+#bars > .bar {
+  width: 20px;
+  height: 10px;
+  background: lightblue;
+  margin: 5px;
+  align-self: baseline;
+  /* float: left; */
+}
